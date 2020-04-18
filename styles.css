@@ -1,0 +1,34 @@
+.url-heading
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+.l1
+{
+    font-size: 25px;
+}
+
+.url-input
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.short-button
+{
+    text-align: center;
+}
+
+.input-box
+{
+    height: 30px;
+    width: 350px;
+}
+
+.button-toshort
+{
+    height: 30px;
+    width: 100px;
+}

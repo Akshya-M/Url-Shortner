@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Url-Shortner</title>
+    </head>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="app.js"></script>
+
+    <script>
+        function short() 
+	    {
+            let url = document.getElementById('long-url').value;
+            shortUrl(url);
+        }
+    </script>
+
+
+    <body class="body-class">
+        <div class="url-heading">
+            URL SHORTNER <br>
+        </div>
+        <div class="url-input">
+            <label class="l1">Paste the URL to be shortened :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input class="input-box" type="text" name="long-url" placeholder="Enter the URL" id="long-url"> <br>
+        </div>
+        <div class="short-button">
+            <input class="button-toshort" type="button" value="SHORT IT" onclick="short()">
+        </div>
+    </body>
+</html>
